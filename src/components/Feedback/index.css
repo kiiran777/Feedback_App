@@ -1,0 +1,36 @@
+/* Write your CSS code here. */
+.container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.emoji-container {
+  background-color: #ffffff;
+  height: 350px;
+  width: 600px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+}
+.button {
+  background-color: transparent;
+  border-width: 0px;
+  margin: 20px;
+}
+.img {
+  height: 80px;
+  width: 100px;
+  border: none;
+}
+.list-loveemoji {
+  list-style-type: none;
+}
